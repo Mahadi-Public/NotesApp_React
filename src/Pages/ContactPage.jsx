@@ -44,7 +44,7 @@ const ContactPage = () => {
       <div className="container bg-[#1e1e1e] text-white rounded-lg h-screen flex items-center justify-center">
         <div className="flex justify-center items-center gap-x-12 flex-col lg:flex-row xl:flex-row ">
           <div>
-            <img src="src\assets\backgrounds\maps.jpg" type="image" alt="maps" width="600" height="450" />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58408.085413273446!2d90.36885800984895!3d23.800622987670227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1720802589936!5m2!1sen!2sbd" width="600" height="450" className='rounded-md' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div>
             <form onSubmit={handleSubmit} className="pb-6">
